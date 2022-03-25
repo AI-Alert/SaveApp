@@ -8,9 +8,10 @@
 
     <Button
         android:id="@+id/btn_delete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="56dp"
         android:text="Delete"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -20,9 +21,10 @@
 
     <Button
         android:id="@+id/btn_get"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="101dp"
+        android:layout_height="54dp"
         android:text="Get"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -32,9 +34,10 @@
 
     <Button
         android:id="@+id/btn_save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="108dp"
+        android:layout_height="50dp"
         android:text="Save"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -55,4 +58,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.115" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="secondActivity"
+        android:text="Images"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_delete"
+        app:layout_constraintVertical_bias="0.668" />
 </androidx.constraintlayout.widget.ConstraintLayout>
